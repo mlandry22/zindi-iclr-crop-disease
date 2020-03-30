@@ -12,7 +12,7 @@ This is what I'll follow to try and learn all the things that need to happen:
 
 Which covers a bit more than needed in just the [FastAI documentation](https://docs.fast.ai/dev/test.html#getting-reproducible-results) if I'm reading it right.
 
-* PYTHONHASHSEED has to be set prior to jupyter/kernel start
+* PYTHONHASHSEED has to be set prior to jupyter/kernel start (I did this part correctly; nothing else)
 * `num_workers=1` or 0 in the transformers piece (I used 8)
 * Set the seed in the several places mentioned in this convenient function:
 ```
