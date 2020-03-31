@@ -6,6 +6,7 @@ This competition was a valuable lesson in training deep learning models, and in 
 Unfortunately, I have now learned that setting seeds within my notebook server is insufficient to create an identical submission, for several reasons.
 
 So what appears is what I did, documented fairly reasonably in notebooks, with a couple inconvenient transition files in R to straighten out things I didn't get right in python (just started learning). All the original submissions are present, and the ensembling code is straightforward. However, if you rerun these notebooks, top to bottom, they will not produce the same result. They ought to be somewhat close due to the blending of 10 submissions, but the best was heavily skewed toward the top 4, so if you get a bad seed on those 4, it's possible that it would be far worse.
+I'm posting the models themselves on my [Google Drive](https://drive.google.com/open?id=17lSBzZXIaOc6xK5FQ5zlDmOijCQpEFjr).
 
 This is what I'll follow to try and learn all the things that need to happen: 
 [FastAI thread](https://forums.fast.ai/t/solved-reproducibility-where-is-the-randomness-coming-in/31628/22)
